@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">FORM</h1>
+
+    <div align="center" text-align="left" class="regis">
+        <form>
+            <label for="fName">First Name: </label>   <!--for and input id should be same-->
+            <input type="text" name="fName" id="fName"> <br/> <br>
+
+            <label for="lName">Last Name: </label>
+            <input type="text" name="lName" id="lName"> <br/> <br>
+
+            <label for="faName">Father's Name: </label>
+            <input type="text" name="faName" id="faName"> <br/> <br>
+
+            <label for="maName">Mother's Name: </label>
+            <input type="text" name="maName" id="maName"> <br/> <br>
+
+            <label for="num">Phone Number: </label>
+            <input type="number" name="number" id="num"> <br/> <br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"> <br/>  <br>
+
+            <label>Gender: </label>
+            <input type="radio" name="gender" id="female" value="Female"> 
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="Male"> 
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="others" value="Others"> 
+            <label for="others">Others</label> <br> <br>
+            <!-----for and input id should be same in order to focus text box on that particular input-->
+
+            <label for="date">Date of Birth: </label>
+            <input type="date" id="date" name="birthDate"><br> <br>
+            
+            <label for="bg">Blood Group: </label>
+            <select name="bg" id="bg">
+                <option value="A-positive">A+</option>
+                <option value="A-negataive">A-</option>
+                <option value="B-positive">B+</option>
+                <option value="B-negative">B-</option>
+                <option value="AB-positive">AB+</option>
+                <option value="AB-negative">AB-</option>
+                <option value="O-positive">O+</option>
+                <option value="O-negative">O-</option>
+            </select> <br> <br>
+
+            
+            <!---name attribute is for sending the data in url after clicking on submit-->
+            <label for="address">Address: </label>
+            <textarea placeholder="Street-House-Road" name="message" rows="3" cols="30"></textarea>
+            <br> <br>
+
+            <label for="dep">Department: </label> 
+            <select name="bg" eid="bg">
+                <option value="MCA">MCA</option>
+                <option value="MTech">MTech</option>
+                <option value="MSc">MSc</option>
+                <option value="MPlan">MPlan</option>
+                <option value="PhD">PhD</option>
+                
+            </select> <br> <br>
+
+            <label for="course">Select electives: </label><br>
+
+            <input type="checkbox" id="webD" name="webD" value="webD">
+            <label for="webD"> Web Development </label><br>
+
+            <input type="checkbox" id="ad" name="ad" value="ad">
+            <label for="ad">App Development</label><br>
+
+            <input type="checkbox" id="devOps" name="devOps" value="devOps">
+            <label for="devOps">DevOps</label><br>
+
+            <input type="checkbox" id="ml" name="ml" value="ml">
+            <label for="ml">Machine Learning/Artificial Intelligence</label><br>
+
+            <input type="checkbox" id="ds" name="ds" value="ds">
+            <label for="ds">Data Science</label><br>
+
+            <input type="checkbox" id="bd" name="bd" value="bd">
+            <label for="bd">Blockchain Development</label><br>
+
+            <input type="checkbox" id="ws" name="ws" value="ws">
+            <label for="ws">Web Security</label><br>
+
+            <input type="reset" value="reset">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
